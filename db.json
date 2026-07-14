@@ -1,0 +1,317 @@
+{
+  "siswa": [
+    {
+      "id": "s1",
+      "username": "ahmad",
+      "nama": "Ahmad Fauzi",
+      "kelas": "7A",
+      "alamat": "Jl. Kyai Haji Wahid Hasyim No. 12, Sawojajar, Wanasari, Brebes",
+      "citaCita": "Guru Agama dan Ahli IT",
+      "motoHidup": "Belajar tiada henti, berbakti kepada orang tua dan guru.",
+      "foto": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=150&auto=format&fit=crop&q=60",
+      "password": "123",
+      "noHp": "085987654321"
+    },
+    {
+      "id": "s2",
+      "username": "siti",
+      "nama": "Siti Fatimah",
+      "kelas": "7B",
+      "alamat": "RT 03/RW 02, Desa Sawojajar, Kec. Wanasari, Brebes",
+      "citaCita": "Dokter Spesialis",
+      "motoHidup": "Khoirunnas anfauhum linnas (Sebaik-baik manusia adalah yang paling bermanfaat).",
+      "foto": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&auto=format&fit=crop&q=60",
+      "password": "123",
+      "noHp": "085987654321"
+    },
+    {
+      "id": "s3",
+      "username": "yusuf",
+      "nama": "Muhammad Yusuf",
+      "kelas": "8A",
+      "alamat": "Gg. Madrasah, Sawojajar, Brebes",
+      "citaCita": "Pengusaha Sukses",
+      "motoHidup": "Man jadda wajada (Siapa yang bersungguh-sungguh akan berhasil).",
+      "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=60",
+      "password": "123",
+      "noHp": "085987654321"
+    },
+    {
+      "id": "s4",
+      "username": "laila",
+      "nama": "Lailatul Fitriyah",
+      "kelas": "8B",
+      "alamat": "Jl. Diponegoro No. 45, Wanasari, Brebes",
+      "citaCita": "Dosen Sastra Arab",
+      "motoHidup": "Adab dulu baru ilmu, sukses dunia akhirat.",
+      "foto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=60",
+      "password": "123",
+      "noHp": "085987654321"
+    },
+    {
+      "id": "s5",
+      "username": "rizky",
+      "nama": "Rizky Aditya",
+      "kelas": "9A",
+      "alamat": "Mulyasari, Sawojajar, Brebes",
+      "citaCita": "Insinyur Sipil",
+      "motoHidup": "Disiplin adalah kunci utama menuju gerbang kesuksesan.",
+      "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=60",
+      "password": "123",
+      "noHp": "085987654321"
+    },
+    {
+      "id": "s6",
+      "username": "nur",
+      "nama": "Nur Halimah",
+      "kelas": "9B",
+      "alamat": "Blok Masjid Jami, Sawojajar, Brebes",
+      "citaCita": "Penulis dan Hafizah",
+      "motoHidup": "Dengan Al-Qur'an hidup menjadi berkah dan terarah.",
+      "foto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=60",
+      "password": "123",
+      "noHp": "085987654321"
+    }
+  ],
+  "guru": [
+    {
+      "id": "g1",
+      "username": "anisa",
+      "nama": "Ibu Anisa Rahmawati, S.Pd.I",
+      "mapel": "Fiqih",
+      "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=60",
+      "kelasDiajar": [
+        "7A",
+        "7B",
+        "7C"
+      ],
+      "nuptk": "198503122010122003",
+      "password": "123",
+      "noHp": "085123456781"
+    },
+    {
+      "id": "g2",
+      "username": "syarif",
+      "nama": "Bapak Drs. KH. Ahmad Syarifuddin",
+      "mapel": "Al-Qur'an Hadits",
+      "foto": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&auto=format&fit=crop&q=60",
+      "kelasDiajar": [
+        "7A",
+        "8A",
+        "8B"
+      ],
+      "nuptk": "197204151998031002",
+      "password": "123",
+      "noHp": "085123456781"
+    },
+    {
+      "id": "g3",
+      "username": "mansur",
+      "nama": "Bapak Muhammad Mansur, M.Pd",
+      "mapel": "Bahasa Arab",
+      "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=60",
+      "kelasDiajar": [
+        "9A",
+        "9B",
+        "9C",
+        "9D"
+      ],
+      "nuptk": "198911022015041001",
+      "password": "123",
+      "noHp": "085123456781"
+    }
+  ],
+  "buku": [
+    {
+      "id": "b1",
+      "judul": "Fiqih Madrasah Tsanawiyah Kelas VII",
+      "mapel": "Fiqih",
+      "kelas": "7A",
+      "bab": [
+        {
+          "nomor": 1,
+          "judul": "Al-Taharah (Ketentuan Bersuci dari Najis dan Hadas)",
+          "konten": "Bersuci (Taharah) merupakan kunci ibadah shalat. Najis terbagi menjadi tiga: Mukhaffafah (ringan, seperti air seni bayi laki-laki yang hanya minum ASI), Mutawassitah (sedang, seperti darah, nanah, tinja), dan Mugallazah (berat, seperti air liur anjing/babi). Pembasihan najis Mukhaffafah cukup memercikkan air, Mutawassitah harus membasuh hingga hilang rasa, bau, dan warna, sedangkan Mugallazah dibasuh 7 kali dan salah satunya menggunakan tanah."
+        },
+        {
+          "nomor": 2,
+          "judul": "Ketentuan Shalat Fardhu Lima Waktu",
+          "konten": "Shalat fardhu lima waktu hukumnya fardhu 'ain bagi setiap Muslim yang baligh dan berakal. Syarat wajib shalat meliputi beragama Islam, baligh, dan berakal sehat. Syarat sah shalat meliputi suci dari hadas besar/kecil, menutup aurat, menghadap kiblat, dan masuk waktu shalat. Rukun shalat meliputi Niat, Berdiri bagi yang mampu, Takbiratul Ihram, Membaca Al-Fatihah, Ruku' dengan tuma'ninah, I'tidal, Sujud dua kali, Duduk di antara dua sujud, Duduk Tasyahud Akhir, Membaca Shalawat Nabi, dan Salam."
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "judul": "Al-Qur'an Hadits MTs Kelas VIII",
+      "mapel": "Al-Qur'an Hadits",
+      "kelas": "8A",
+      "bab": [
+        {
+          "nomor": 1,
+          "judul": "Kuhindari Makanan Haram demi Keberkahan Hidup",
+          "konten": "Allah SWT memerintahkan umat Islam untuk memakan makanan yang halal lagi baik (halalan tayyiban). Halal zatnya berarti makanan tersebut bukan makanan yang diharamkan seperti babi, darah, bangkai. Halal cara memperolehnya berarti bukan dari mencuri, korupsi, atau menipu. Makanan haram merusak kesehatan lahiriah, mengotori batin, dan menghalangi terkabulnya doa."
+        },
+        {
+          "nomor": 2,
+          "judul": "Keutamaan Berbakti kepada Kedua Orang Tua (Birrul Walidain)",
+          "konten": "Ridha Allah SWT bergantung pada ridha kedua orang tua, dan murka Allah juga bergantung pada kemurkaan orang tua. Berbakti kepada orang tua dilakukan dengan bertutur kata lemah lembut, menaati perintah mereka selama tidak bermaksiat kepada Allah, dan mendoakan mereka baik ketika masih hidup maupun setelah wafat."
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "judul": "Bahasa Arab Kelas IX MTs",
+      "mapel": "Bahasa Arab",
+      "kelas": "9A",
+      "bab": [
+        {
+          "nomor": 1,
+          "judul": "Rasulullah SAW Hijrah ke Madinah (Rasul's Migration)",
+          "konten": "Peristiwa Hijrah Nabi Muhammad SAW dari Makkah ke Madinah merupakan tonggak sejarah besar dalam Islam. Penduduk Madinah (Ansar) menyambut hangat kaum Muhajirin dengan penuh persaudaraan. Kosakata penting: Hijrah (הجرة), Sahabat (الصحابة), Madinah Al-Munawwarah (المدينة المنورة), Kaum Anshar (الأنصار), Kaum Muhajirin (المهاجرon)."
+        },
+        {
+          "nomor": 2,
+          "judul": "Hari Raya Islam (Al-A'yadul Islamiyah)",
+          "konten": "Umat Islam memiliki dua hari raya utama: Idul Fitri pada tanggal 1 Syawal setelah melaksanakan ibadah puasa Ramadhan, dan Idul Adha pada tanggal 10 Dzulhijjah diiringi dengan penyembelihan hewan qurban seperti sapi, kambing, atau unta sebagai wujud takwa kepada Allah SWT."
+        }
+      ]
+    }
+  ],
+  "tugas": [
+    {
+      "id": "t1",
+      "kelas": "7A",
+      "mapel": "Fiqih",
+      "semester": "1",
+      "bab": "Bab 1: Al-Taharah (Ketentuan Bersuci dari Najis dan Hadas)",
+      "jumlahSoal": 3,
+      "waktu": 15,
+      "soal": [
+        {
+          "id": "q1",
+          "pertanyaan": "Najis yang digolongkan sebagai najis berat dalam ajaran Fiqih disebut najis...",
+          "pilihan": {
+            "A": "Mukhaffafah",
+            "B": "Mutawassitah",
+            "C": "Mugallazah",
+            "D": "Ainiyah"
+          },
+          "jawabanBenar": "C"
+        },
+        {
+          "id": "q2",
+          "pertanyaan": "Bagaimanakah cara mensucikan benda yang terkena najis Mukhaffafah (ringan)?",
+          "pilihan": {
+            "A": "Membasuhnya sebanyak tujuh kali dengan tanah",
+            "B": "Memercikkan air bersih ke bagian yang terkena najis",
+            "C": "Mencucinya sampai hilang bau, rasa, dan warnanya",
+            "D": "Merendam benda tersebut di air mengalir seharian"
+          },
+          "jawabanBenar": "B"
+        },
+        {
+          "id": "q3",
+          "pertanyaan": "Darah, nanah, dan kotoran manusia tergolong ke dalam najis jenis...",
+          "pilihan": {
+            "A": "Mugallazah",
+            "B": "Mukhaffafah",
+            "C": "Mutawassitah",
+            "D": "Hukmiyah"
+          },
+          "jawabanBenar": "C"
+        }
+      ],
+      "dibuatTanggal": "2026-07-01T08:00:00Z",
+      "deadlineTanggal": "2026-07-20"
+    },
+    {
+      "id": "t2",
+      "kelas": "8A",
+      "mapel": "Al-Qur'an Hadits",
+      "semester": "1",
+      "bab": "Bab 1: Kuhindari Makanan Haram demi Keberkahan Hidup",
+      "jumlahSoal": 2,
+      "waktu": 10,
+      "soal": [
+        {
+          "id": "t2-q1",
+          "pertanyaan": "Berikut adalah salah satu dampak negatif dari mengonsumsi makanan yang haram, yaitu...",
+          "pilihan": {
+            "A": "Tubuh menjadi semakin sehat dan kuat",
+            "B": "Mendapatkan pahala yang melimpah",
+            "C": "Terhalangnya terkabulnya doa oleh Allah SWT",
+            "D": "Meningkatkan kecerdasan otak"
+          },
+          "jawabanBenar": "C"
+        },
+        {
+          "id": "t2-q2",
+          "pertanyaan": "Istilah untuk makanan yang diperbolehkan dikonsumsi serta menyehatkan tubuh dalam Islam adalah...",
+          "pilihan": {
+            "A": "Halalan Thayyiban",
+            "B": "Halalan Mutlaqan",
+            "C": "Haram lighairihi",
+            "D": "Makruh tahrim"
+          },
+          "jawabanBenar": "A"
+        }
+      ],
+      "dibuatTanggal": "2026-07-02T09:00:00Z",
+      "deadlineTanggal": "2026-07-25"
+    }
+  ],
+  "jawabanSiswa": [
+    {
+      "id": "j1",
+      "tugasId": "t1",
+      "siswaId": "s1",
+      "namaSiswa": "Ahmad Fauzi",
+      "kelas": "7A",
+      "nilai": 100,
+      "jawaban": {
+        "q1": "C",
+        "q2": "B",
+        "q3": "C"
+      },
+      "tanggalSelesai": "2026-07-02T10:15:00Z",
+      "waktuPengerjaanDetik": 245
+    },
+    {
+      "id": "j2",
+      "tugasId": "t1",
+      "siswaId": "s2",
+      "namaSiswa": "Siti Fatimah",
+      "kelas": "7B",
+      "nilai": 67,
+      "jawaban": {
+        "q1": "C",
+        "q2": "C",
+        "q3": "C"
+      },
+      "tanggalSelesai": "2026-07-03T11:20:00Z",
+      "waktuPengerjaanDetik": 320
+    }
+  ],
+  "notifikasi": [
+    {
+      "id": "n1",
+      "judul": "Tugas Baru: Al-Taharah",
+      "deskripsi": "Tugas Baru Fiqih kelas 7A bab Ketentuan Bersuci telah dirilis oleh Ibu Anisa Rahmawati.",
+      "kelas": "7A",
+      "tanggal": "2026-07-01T08:00:00Z",
+      "tipe": "tugas",
+      "linkTugasId": "t1"
+    },
+    {
+      "id": "n2",
+      "judul": "Tenggat Waktu Tugas!",
+      "deskripsi": "Pengingat: Tugas Al-Qur'an Hadits kelas 8A bab Makanan Haram akan segera berakhir.",
+      "kelas": "8A",
+      "tanggal": "2026-07-03T12:00:00Z",
+      "tipe": "warning",
+      "linkTugasId": "t2"
+    }
+  ],
+  "tkaTasks": [],
+  "tkaSubmissions": []
+}
