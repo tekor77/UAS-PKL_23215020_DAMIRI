@@ -1,0 +1,38 @@
+# .htaccess untuk Smart Teacher MTs Ma'arif NU 7 Sawojajar
+# Kompatibel dengan Apache Web Server (InfinityFree, XAMPP, dll.)
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Jika file atau folder fisik yang asli ada, langsung sajikan tanpa modifikasi
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # --- Rewrite API Endpoints ke api.php ---
+  
+  # 1. Routing Khusus TKA Tasks
+  RewriteRule ^api/tka/tasks$ api.php?endpoint=tka_tasks [QSA,L]
+  RewriteRule ^api/tka/tasks/([^/]+)$ api.php?endpoint=tka_tasks&id=$1 [QSA,L]
+
+  # 2. Routing Khusus TKA Submissions
+  RewriteRule ^api/tka/submissions$ api.php?endpoint=tka_submissions [QSA,L]
+  RewriteRule ^api/tka/submissions/([^/]+)$ api.php?endpoint=tka_submissions&id=$1 [QSA,L]
+
+  # 3. Routing dengan ID (misalnya: api/students/s1 atau api/teachers/g1)
+  RewriteRule ^api/([^/]+)/([^/]+)$ api.php?endpoint=$1&id=$2 [QSA,L]
+
+  # 4. Routing standar tanpa ID (misalnya: api/students atau api/books)
+  RewriteRule ^api/([^/]+)$ api.php?endpoint=$1 [QSA,L]
+
+  # --- Fallback untuk Single Page Application (SPA) React ---
+  # Mengarahkan semua rute non-API lainnya kembali ke index.html agar dirender oleh React Router di browser
+  # Hanya lakukan pengalihan jika file atau folder asli tidak ada, dan bukan merupakan request API
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !api\.php
+  RewriteCond %{REQUEST_URI} !^.*/api/
+  RewriteRule ^index\.html$ - [L]
+  RewriteRule . /index.html [L]
+</IfModule>
