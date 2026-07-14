@@ -3,11 +3,11 @@ PROJECT PKL
 </div>
 
 ## Keterangan
-Nama   : DAMIRI
-NIM    : 23215020
-Tempat PKL : MTs Ma'arif NU 7 Sawojajar, Brebes
-Nama Project : Smart Teacher
-Arsitektur web ini adalah Single Page Application (SPA) menggunakan bahasa Typescript. Sisi Klien (Front end)  menggunakan library React dengan build-tool Vite dan framework CSS Tailwind untuk antarmuka yang responsif dan interaktif. Pada sisi server (Beckend) menggunakan runtime Node.Js yang berjalan dengan frame work Express.Js. 
+# Nama   : DAMIRI
+# NIM    : 23215020
+# Tempat PKL : MTs Ma'arif NU 7 Sawojajar, Brebes
+# Nama Project : Smart Teacher
+# Arsitektur web ini adalah Single Page Application (SPA) menggunakan bahasa Typescript. Sisi Klien (Front end)  menggunakan library React dengan build-tool Vite dan framework CSS Tailwind untuk antarmuka yang responsif dan interaktif. Pada sisi server (Beckend) menggunakan runtime Node.Js yang berjalan dengan frame work Express.Js. 
 Dalam pengembangannya dilakukan migrasi agar website ini bisa berjalan di infinityfree.com dan menggunakan database MySQL.
 
 ## Cara menjalankan di localhost
