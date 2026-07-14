@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Smart Teacher",
+  "description": "Aplikasi e-learning dengan fitur AI Generative untuk membuat soal otomatis di Madrasah MTs Ma\u0027arif NU 7 Sawojajar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
